@@ -21,5 +21,10 @@ namespace Arac_Kullanimlari //Proje ismimiz burada belirtiriz
         {
             MessageBox.Show("Merhaba Dünya");
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            label2.Text = "Mustafa Emre";
+        }
     }
 }
