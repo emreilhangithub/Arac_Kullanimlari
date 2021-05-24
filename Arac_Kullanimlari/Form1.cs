@@ -33,5 +33,12 @@ namespace Arac_Kullanimlari //Proje ismimiz burada belirtiriz
             label7.Text = "İlhan";
             label8.Text = "Yazılımcı";
         }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            //textBox1.Text = "Yazılım Mühendisi"; butona tıklayınca textbox içine bunu yazar
+            label9.Text = textBox1.Text;
+            //nereye yazdıracaksak burası hep sol kısımda kalacak sağ kısma nerden verinin gelecegini yaz
+        }
     }
 }
