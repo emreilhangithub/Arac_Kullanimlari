@@ -26,5 +26,12 @@ namespace Arac_Kullanimlari //Proje ismimiz burada belirtiriz
         {
             label2.Text = "Mustafa Emre";
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            label6.Text = "Mustafa Emre";
+            label7.Text = "İlhan";
+            label8.Text = "Yazılımcı";
+        }
     }
 }
