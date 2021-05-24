@@ -40,5 +40,12 @@ namespace Arac_Kullanimlari //Proje ismimiz burada belirtiriz
             label9.Text = textBox1.Text;
             //nereye yazdıracaksak burası hep sol kısımda kalacak sağ kısma nerden verinin gelecegini yaz
         }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            label10.Text = textBox2.Text;
+            label11.Text = textBox3.Text;
+            label12.Text = textBox4.Text;
+        }
     }
 }
